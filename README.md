@@ -3,11 +3,11 @@ This code implements Huffman coding, a lossless data compression algorithm. Huff
 
 
 ## Usage
-. Run the code and provide the path to the file you want to compress.
-. The program will compress the file using Huffman coding and generate a compressed binary file.
-. The program will also generate a key file that contains the mapping of characters to their corresponding Huffman codes.
-. To decompress the file, provide the path to the compressed binary file.
-. The program will use the key file to decode the compressed binary file and generate the original file.
+1. Run the code and provide the path to the file you want to compress.
+2. The program will compress the file using Huffman coding and generate a compressed binary file.
+3. The program will also generate a key file that contains the mapping of characters to their corresponding Huffman codes.
+4. To decompress the file, provide the path to the compressed binary file.
+5. The program will use the key file to decode the compressed binary file and generate the original file.
 
 
 ## Code Explanation
