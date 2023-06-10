@@ -14,9 +14,9 @@ The program will use the key file to decode the compressed binary file and gener
 The code consists of the following classes and methods:
 
 ### Binary_tree class
-__init__(self, value, frequency, left=None, right=None): Initializes a binary tree node with a value, frequency, and optional left and right child nodes.
-__lt__(self, other): Overloads the < operator to compare nodes based on their frequencies.
-__eq__(self, other): Overloads the == operator to compare nodes based on their frequencies.
+* __init__(self, value, frequency, left=None, right=None): Initializes a binary tree node with a value, frequency, and optional left and right child nodes.
++ __lt__(self, other): Overloads the < operator to compare nodes based on their frequencies.
+* __eq__(self, other): Overloads the == operator to compare nodes based on their frequencies.
 
 ###Huffman__init__(self, path): Initializes the Huffman code object with a file path.
 __frequency_from_text(self, text): Generates a frequency dictionary for characters in the given text.
