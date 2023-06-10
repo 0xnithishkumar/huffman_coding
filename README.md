@@ -1,4 +1,4 @@
-# Huffman Compression
+# Huffman Coding
 This code implements Huffman coding, a lossless data compression algorithm. Huffman coding assigns variable-length codes to characters based on their frequencies in the input text, with more frequent characters getting shorter codes.
 
 
