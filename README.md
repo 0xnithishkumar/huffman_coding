@@ -1,8 +1,8 @@
-#Huffman Coding
+# Huffman Coding
 This code implements Huffman coding, a lossless data compression algorithm. Huffman coding assigns variable-length codes to characters based on their frequencies in the input text, with more frequent characters getting shorter codes.
 
 
-##Usage
+## Usage
 Run the code and provide the path to the file you want to compress.
 The program will compress the file using Huffman coding and generate a compressed binary file.
 The program will also generate a key file that contains the mapping of characters to their corresponding Huffman codes.
@@ -10,10 +10,10 @@ To decompress the file, provide the path to the compressed binary file.
 The program will use the key file to decode the compressed binary file and generate the original file.
 
 
-##Code Explanation
+## Code Explanation
 The code consists of the following classes and methods:
 
-###Binary_tree class
+### Binary_tree class
 __init__(self, value, frequency, left=None, right=None): Initializes a binary tree node with a value, frequency, and optional left and right child nodes.
 __lt__(self, other): Overloads the < operator to compare nodes based on their frequencies.
 __eq__(self, other): Overloads the == operator to compare nodes based on their frequencies.
@@ -35,7 +35,7 @@ __decoded_text(self, unpadded_string, dict_code): Decodes the unpadded string us
 decompress(self, input_path): Decompresses the compressed binary file using the key file and generates the original file.
 
 
-##Main
+## Main
 The main part of the code prompts the user for the file path, creates an instance of the Huffmancode class, and calls the compress and decompress methods to perform compression and decompression, respectively. The compressed and decompressed files are saved with appropriate file extensions.
 
 Please make sure to have the required libraries installed before running the code: heapq, os, and pickle.
